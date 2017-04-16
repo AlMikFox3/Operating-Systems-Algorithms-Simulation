@@ -8,7 +8,7 @@ int check(int *a,int n)
 }
 int main()
 {	//no - turn around  | noj - job in frame
-	int i,j,size[10],ta[10],block[5],no[5]={0,0,0,0,0},noj[5]={0,0,0,0,0};
+	int i,j,size[10],ta[10],bkmlock[5],no[5]={0,0,0,0,0},noj[5]={0,0,0,0,0};
 	for(i=0;i<10;i++)
 		scanf("%d",&size[i]);
 	for(i=0;i<10;i++)
